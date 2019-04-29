@@ -255,7 +255,7 @@ if __name__ == '__main__':
 	parser.add_argument('--batch_size', default=128, type=int)
 	parser.add_argument('--pretrain_epochs', default=20, type=int)
 	parser.add_argument('--train_epochs', default=200, type=int)
-	parser.add_argument('--save_dir', default='results')
+	parser.add_argument('--save_dir', default='saves')
 	args = parser.parse_args()
 	print(args)
 	epochs_pre = args.pretrain_epochs
